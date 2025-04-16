@@ -1,0 +1,12 @@
+# 瓶子印刷质量检测系统依赖包
+PyQt5==5.15.4
+opencv-python==4.5.5.64
+numpy==1.22.3
+torch==1.11.0
+torchvision==0.12.0
+pillow==9.1.0
+scikit-learn==1.0.2
+scikit-image==0.19.2
+matplotlib==3.5.1
+pytesseract==0.3.9
+PyYAML==6.0 
