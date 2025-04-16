@@ -1,12 +1,41 @@
-# 瓶子印刷质量检测系统依赖包
-PyQt5==5.15.4
-opencv-python==4.5.5.64
-numpy==1.22.3
-torch==1.11.0
-torchvision==0.12.0
-pillow==9.1.0
-scikit-learn==1.0.2
-scikit-image==0.19.2
-matplotlib==3.5.1
-pytesseract==0.3.9
-PyYAML==6.0 
+# 瓶子印刷质量检测系统依赖
+# ===============================
+
+# 核心依赖
+numpy>=1.18.0        # 支持更广泛的Python版本
+torch>=1.7.0         # 兼容CUDA 10.1及以上
+torchvision>=0.8.0   # 需与torch版本匹配
+PyYAML>=5.1.0        # 配置文件解析
+
+# 图像处理
+opencv-python>=4.2.0  # 主要图像处理库
+pillow>=7.0.0         # 基础图像处理
+scikit-image>=0.16.0  # 高级图像处理算法
+
+# 机器学习工具
+scikit-learn>=0.22.0  # 机器学习算法与评估
+
+# 数据可视化
+matplotlib>=3.1.0     # 绘图与可视化
+
+# 文本检测（可选，但推荐安装）
+pytesseract>=0.3.0    # 文字区域识别
+
+# 进度显示
+tqdm>=4.40.0          # 进度条
+
+# 数据增强
+albumentations>=0.5.0 # 图像增强库
+
+# 异常检测框架
+# 注意: 固定版本以确保API兼容性
+# 如果安装遇到问题，可单独安装其依赖后再安装anomalib
+anomalib==0.4.0       # 异常检测框架
+
+# 深度学习训练框架
+# 如果安装异常检测框架时出现冲突，可使用下面兼容的版本
+pytorch-lightning>=1.5.0,<2.0.0
+
+# 图形界面（可选）
+# 如果只需命令行功能，可注释掉此行
+PyQt5>=5.15.0         # GUI界面 

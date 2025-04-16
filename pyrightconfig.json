@@ -1,0 +1,42 @@
+{
+  "include": [
+    "*.py"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__"
+  ],
+  "ignore": [
+    "batch_inference.py",
+    "camera_manager.py",
+    "database_manager.py",
+    "detector_wrapper.py",
+    "history_page.py",
+    "inference.py",
+    "main_window.py",
+    "main.py",
+    "realtime_detection_page.py",
+    "settings_page.py",
+    "train.py",
+    "train_optimized.py"
+  ],
+  "reportMissingImports": false,
+  "reportMissingModuleSource": false,
+  "reportArgumentType": false,
+  "reportCallIssue": false,
+  "reportIndexIssue": false,
+  "reportGeneralTypeIssues": false,
+  "reportOptionalMemberAccess": false,
+  "reportOptionalSubscript": false,
+  "reportPrivateImportUsage": false,
+  "reportUnboundVariable": false,
+  "reportUndefinedVariable": false,
+  "reportInvalidStringEscapeSequence": false,
+  "reportUnknownParameterType": false,
+  "reportUnknownArgumentType": false,
+  "reportUnknownLambdaType": false,
+  "reportUnknownVariableType": false,
+  "reportUnknownMemberType": false,
+  "pythonVersion": "3.9",
+  "typeCheckingMode": "basic"
+} 
